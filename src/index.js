@@ -11,7 +11,6 @@ ReactDOM.render(
   <React.StrictMode>
     <div className='mechanizedAbstractions'>
       <HomeScreen/>
-      <HomeScreen/> 
     </div>
   </React.StrictMode>,
   document.getElementById('root')
