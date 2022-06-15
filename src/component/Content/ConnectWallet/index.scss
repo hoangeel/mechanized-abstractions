@@ -1,0 +1,539 @@
+div.deleteConnect{
+    display: none;
+}
+div.ConnectWallet{
+    &:active{
+        div.one{
+            background-color: rgb(212, 255, 255);
+            border:  rgb(0, 110, 255);
+        }
+        div.twoAfter{
+            background-color:aqua;
+            background-color: rgb(212, 255, 255);
+            border:  rgb(0, 110, 255);
+        }
+        div.Connect_Wallet{
+            button{
+                opacity: 0.5;
+            }
+        }
+    }
+    div.header_ConnectWallet{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        div.content_header_ConnectWallet{
+            display: flex;
+            flex-direction: row;
+            margin-left: 21px;
+            div.mechanized_abstractions{
+                margin: 56px 712px 0px 0px;
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                text-transform: lowercase;
+                color: #161412;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            div.menu{
+                display: flex;
+                flex-direction: row;
+                margin: 59px 0px 119px;
+                div.DISCORD{
+                    padding: 6px 0px;
+                    font-family: 'Karla';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 0.875px;
+                    text-transform: uppercase;
+                    color: #161412;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.TWITTER{
+                    padding: 6px 43px;
+                    font-family: 'Karla';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 0.875px;
+                    text-transform: uppercase;
+                    color: #161412;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }         
+                }
+                div.Pre_mint{
+                    padding: 8px 21.5px;
+                    font-family: 'Optima LT Std';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #383535;
+                    flex: none;
+                    order: 2;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    background: #DFDFDF;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }           
+                }
+            }
+        }
+    }
+    div.content_ConnectWallet{
+        h1{
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #161412; 
+            text-align: center;         
+        }
+        div.line{
+            display: flex;
+            justify-content: center;
+            div{
+                border: 0.5px solid rgba(101, 99, 95, 0.6);
+                height: 1px;
+                width: 394px;
+                margin: 32px 0px;
+            }
+        }
+        div.click{
+            display: flex;
+            justify-content: center;
+            div.mint{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 200px;
+                h5{
+                    font-family: 'Optima LT Std';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;        
+                    color: #161412; 
+                    margin-bottom: 3px;                  
+                }
+                p{
+                    width: 144px;
+                    font-family: 'Optima LT Std';
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #65635F;
+                    margin: 0px;
+                    flex: none;
+                    order: 1;
+                    align-self: stretch;
+                    flex-grow: 0;
+                }
+                div.one{
+                    padding: 17px 20px;
+                    border: 1px solid rgba(101, 99, 95, 0.2);
+                    margin: 0px 25px 0px 0px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.two{
+                    padding: 17px 20px;
+                    border: 1px solid rgba(101, 99, 95, 0.2);
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.oneAfter{
+                    padding: 17px 20px;
+                    border: 1px solid rgba(101, 99, 95, 0.2);
+                    margin: 0px 25px 0px 0px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.twoAfter{
+                    padding: 17px 20px;
+                    border: 1px solid rgba(101, 99, 95, 0.2);
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+        div.mintOne{
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.875px;
+            text-transform: uppercase;
+            color: #EF4C4C;
+            text-align: center;
+            margin: -168px 0px 142px 0px;
+        }
+        div.Connect_Wallet{
+            display: flex;
+            justify-content: center;
+            button{
+                align-items: center;
+                padding: 20px 24px;
+                width: 187px;
+                height: 64px;
+                background: #161412;
+                border: 1px solid #000000;
+                font-family: 'Optima LT Std';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFDFD;
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0; 
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }              
+            }
+        }
+        div.text{
+            display: flex;
+            justify-content: center;
+            width: 100%; 
+            margin: 45px 0px 91px 0px;
+            div.texts{
+                div.text_1{
+                    font-family: 'Optima LT Std';
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #65635F;
+                    max-width: 287px;
+                }   
+                div.text_2{
+                    margin-top: 13px;
+                }
+            }
+        }
+    }
+    div.footer_ConnectWallet{
+        background: #F4F4F2;
+        padding: 54.5px 0px 78.5px;
+        h2{
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.875px;
+            text-transform: uppercase;
+            color: #161412;
+            text-align: center;
+            margin-bottom: 8px;
+        } 
+        h4{
+            font-family: 'Optima LT Std';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #65635F;
+            margin-bottom: 50px;          
+        }
+        div.group_footer_ConnectWallet{
+            display: flex;
+            flex-direction: column;
+            div.group{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                h6{
+                    font-family: 'Optima LT Std';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #161412;  
+                    margin: 0px 0px 3px;                  
+                }
+                p{
+                    font-family: 'Optima LT Std';
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #65635F;   
+                    margin: 0px;        
+                }
+                div.pieces{
+                    border: 1px solid rgba(101, 99, 95, 0.2);
+                    padding: 17px 20px;
+                    width: 160px;
+                }
+                div.wallet{
+                    border: 1px solid rgba(101, 99, 95, 0.2);
+                    padding: 17px 20px; 
+                    margin: 0px 30px;
+                    width: 160px;                 
+                }
+                div.deadline{
+                    border: 1px solid rgba(101, 99, 95, 0.2);  
+                    padding: 17px 20px; 
+                    width: 160px;                
+                }
+           }
+       }
+    }
+}
+
+@media (max-width: 1257px){
+    div.ConnectWallet{
+        div.header_ConnectWallet{
+            div.content_header_ConnectWallet{
+                margin-left: 21px;
+                div.mechanized_abstractions{
+                    margin: 56px 412px 0px 0px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 938px){
+    div.ConnectWallet{
+        div.header_ConnectWallet{
+            div.content_header_ConnectWallet{
+                margin-left: 21px;
+                div.mechanized_abstractions{
+                    margin: 56px 203px 0px 0px;
+                    font-size: 20px;
+                }
+                div.menu{
+                    margin: 59px 0px 90px;
+                    div.DISCORD{
+                        padding: 6px 0px;
+                    }
+                    div.TWITTER{
+                        padding: 6px 23px;
+                    }         
+                }
+            }
+        }
+    }
+}
+@media (max-width: 683px){
+    div.ConnectWallet{
+        div.header_ConnectWallet{
+            div.content_header_ConnectWallet{
+                div.mechanized_abstractions{
+                    margin: 56px 83px 0px 0px;
+                    font-size: 16px;
+                }
+                div.menu{
+                    margin-top: 59px;
+                    div.DISCORD{
+                        padding: 6px 0px;
+                        font-size: 12px;
+                    }
+                    div.TWITTER{
+                        padding: 6px 23px;
+                        font-size: 12px;         
+                    }
+                    div.Pre_mint{
+                        font-size: 14px; 
+                    }          
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px){
+    div.ConnectWallet{
+        div.header_ConnectWallet{
+            div.content_header_ConnectWallet{
+                div.mechanized_abstractions{
+                    margin: 28px 40px 0px 0px;
+                    font-size: 12px;
+                }
+                div.menu{
+                    margin: 29px 0px 40px;
+                    div.DISCORD{
+                        padding: 6px 0px;
+                        font-size: 10px;
+                    }
+                    div.TWITTER{
+                        padding: 6px 10px;
+                        font-size: 10px;         
+                    }
+                    div.Pre_mint{
+                        font-size: 12px;
+                        width: 60px;
+                        height: 35px;
+                        padding: 6px 5px; 
+                        div.clickColor{
+                            width: 60px;
+                            height: 35px;
+                            margin: -30px 0px 0px -5px;
+                        }    
+                    }        
+                }
+            }
+        }
+        div.content_ConnectWallet{
+            h1{
+                font-size: 16px;        
+            }
+            div.line{
+                div{
+                    width: 250px;
+                    margin: 20px 0px;
+                }
+            }
+            div.click{
+                div.mint{
+                    margin-bottom: 150px;
+                    h5{
+                        font-size: 16px; 
+                        margin-bottom: 3px;                  
+                    }
+                    p{
+                        width: 124px;
+                        font-size: 14px;
+                    }
+                    div.one{
+                        padding: 11px 10px;
+                        margin: 0px 15px 0px 0px;
+                    }
+                    div.two{
+                        padding: 11px 10px;
+                    }
+                    div.oneAfter{
+                        padding: 11px 10px;
+                        margin: 0px 15px 0px 0px;
+                    }
+                    div.twoAfter{
+                        padding: 11px 10px;
+                    }
+                }
+            }
+            div.mintOne{
+                font-size: 14px;
+                margin: -118px 0px 100px 0px;
+            }
+            div.Connect_Wallet{
+                button{
+                    padding: 10px 12px;
+                    width: 120px;
+                    height: 44px;
+                    font-size: 12px;
+                }
+            }
+            div.text{ 
+                margin: 35px 0px 40px 0px;
+            }
+        }
+        div.footer_ConnectWallet{
+            padding: 34.5px 0px 58.5px;
+            div.group_footer_ConnectWallet{
+                h4{
+                    margin-bottom: 20px;
+                }
+                div.group{
+                    h6{
+                        font-size: 12px;;  
+                    }
+                    p{
+                        font-size: 10px;  
+                    }
+                    div.pieces{
+                        padding: 10px 10px;
+                        width: 100px;
+                    }
+                    div.wallet{
+                        padding: 10px 10px; 
+                        margin: 0px 10px;
+                        width: 100px;                 
+                    }
+                    div.deadline{
+                        padding: 10px 10px; 
+                        width: 120px;                
+                    }
+               }
+           }
+        }
+    }
+}
+@media (max-width: 375px){
+    div.ConnectWallet{
+        div.header_ConnectWallet{
+            div.content_header_ConnectWallet{
+                div.mechanized_abstractions{
+                    margin: 28px 30px 0px 0px;
+                    font-size: 12px;
+                }
+                div.menu{
+                    div.DISCORD{
+                        padding: 6px 0px;
+                        font-size: 8px;
+                    }
+                    div.TWITTER{
+                        padding: 6px 5px;
+                        font-size: 8px;         
+                    }
+                    div.Pre_mint{
+                        font-size: 10px;
+                        width: 60px;
+                        height: 35px;
+                        padding: 6px 5px; 
+                        div.clickColor{
+                            width: 60px;
+                            height: 35px;
+                            margin: -30px 0px 0px -5px;
+                        }    
+                    }        
+                }
+            }
+        }
+    }
+}

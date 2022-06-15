@@ -1,0 +1,139 @@
+div.delete{
+    display: none;
+}
+div.HomeScreen{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    div.ContentHomeScreen{
+        margin-top: 140px;
+        justify-content: center;
+        div.imgs{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: center;
+            div.ImgHomeScreen{
+                background: url(../../../assets/img/example-41.png) no-repeat center;
+                width: 1002px;
+                height: 334px;
+                filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.5));
+                div.Icon{
+                    background: url(../../../assets/img/Union.png) no-repeat right;
+                    width: 44px;
+                    height: 24px;
+                    margin: 189.23px 0px 0px 1083.74px;
+                }
+            }
+        }
+        div.description{
+            margin: 44px 0px 11px;
+            font-family: 'Optima LT Std';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            align-items: center;
+            text-align: center;
+            color: #65635F;
+        }
+        p{
+            text-align: center;
+            font-family: 'Optima LT Std';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #9A9999;
+            margin-bottom: 77px;
+        }
+    }
+}
+
+@media (max-width: 1257px){
+    div.HomeScreen{
+        div.ContentHomeScreen{
+            margin-top: 100px;
+            div.imgs{
+                div.ImgHomeScreen{
+                    width: 711.50px;
+                    height: 237.14px;
+                    div.Icon{
+                        width: 31px;
+                        height: 17px;
+                        margin: 134px 0px 0px 769px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 938px){
+    div.HomeScreen{
+        div.ContentHomeScreen{
+            margin-top: 100px;
+            div.imgs{
+                div.ImgHomeScreen{
+                    width: 532px;
+                    height: 177px;
+                    div.Icon{
+                        width: 23px;
+                        height: 13px;
+                        margin: 100px 0px 0px 574px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 683px){
+    div.HomeScreen{
+        div.ContentHomeScreen{
+            margin-top: 50px;
+            div.imgs{
+                div.ImgHomeScreen{
+                    width: 421px;
+                    height: 140px;
+                    div.Icon{
+                        width: 19px;
+                        height: 10px;
+                        margin: 80px 0px 0px 455px;
+                    }
+                }
+            }
+            div.description{
+                font-size: 16px;
+            }
+            p{
+                font-size: 14px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+@media (max-width: 550px){
+    div.HomeScreen{
+        div.ContentHomeScreen{
+            margin-top: 50px;
+            div.imgs{
+                div.ImgHomeScreen{
+                    width: 280px;
+                    height: 94px;
+                    div.Icon{
+                        width: 12px;
+                        height: 7px;
+                        margin: 53px 0px 0px 303.44px;
+                    }
+                }
+            }
+            div.description{
+                margin: 30px 0px 0px;
+                font-size: 12px;
+            }
+            p{
+                font-size: 10px;
+                margin-bottom: 38px;
+            }
+        }
+    }
+}

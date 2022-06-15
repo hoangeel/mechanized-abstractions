@@ -1,0 +1,341 @@
+div.Gallery{
+    div.header_Gallery{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        div.content_header_Gallery{
+            display: flex;
+            flex-direction: row;
+            margin-left: 21px;
+            div.mechanized_abstractions{
+                margin: 56px 633px 0px 0px;
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                text-transform: lowercase;
+                color: #161412;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            div.menu{
+                display: flex;
+                flex-direction: row;
+                margin: 59px 0px 53px;
+                div.DISCORD{
+                    padding: 6px 0px;
+                    font-family: 'Karla';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 0.875px;
+                    text-transform: uppercase;
+                    color: #161412;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.TWITTER{
+                    padding: 6px 43px;
+                    font-family: 'Karla';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 0.875px;
+                    text-transform: uppercase;
+                    color: #161412;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }         
+                }
+                div.LogoDiscord{
+                    display: none;
+                    padding: 3px 0px;
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.LogoTwitter{
+                    display: none;
+                    padding: 3px 5px;
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.Pre_mint{
+                    padding: 8px 28px;
+                    font-family: 'Optima LT Std';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    flex: none;
+                    order: 2;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    background: #DFDFDF;
+                    color: #383535;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+
+                    }           
+                }
+            }
+        }
+    }
+    div.content_Gallery{
+        padding: 54px 0px 59px;
+        background: #F4F4F2;
+        h1{
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.875px;
+            text-transform: uppercase;
+            color: #161412; 
+            text-align: center; 
+            margin: 0px;        
+        }
+        h2{
+            font-family: 'Optima LT Std';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #65635F;
+            margin: 9px 0px 60px;
+        }
+        div.img_Gallery_014{
+            display: flex;
+            justify-content: center;
+            div{
+                    background: url(../../../assets/img/example-42.png) center;
+                    width: 574px;
+                    height: 192px;
+            }
+        }
+        h3{
+            font-family: 'Optima LT Std';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #65635F;
+            margin: 11px 0px 0px 0px;
+        }
+        h4{
+            font-family: 'Optima LT Std';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 16px;
+            text-align: center;
+            color: #65635F;
+            margin: 0px;
+        }
+        div.img_Gallery_015{
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            div{
+                    background: url(../../../assets/img/example-43.png) center;
+                    width: 574px;
+                    height: 192px;
+            }
+        }
+    }
+}
+@media (max-width: 1257px){
+    div.Gallery{
+        div.header_Gallery{
+            div.content_header_Gallery{
+                div.mechanized_abstractions{
+                    margin: 56px 350px 0px 0px;
+                }
+                div.menu{
+                    div.TWITTER{
+                        padding: 6px 20px;
+                    }
+                    div.Pre_mint{
+                        padding: 8px 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 938px){
+    div.Gallery{
+        div.header_Gallery{
+            div.content_header_Gallery{
+                div.mechanized_abstractions{
+                    margin: 40px 153px 0px 0px;
+                    font-size: 18px;
+                }
+                div.menu{
+                    margin: 40px 0px;
+                    div.DISCORD{
+                        padding: 6px 0px;
+                        font-size: 14px;
+                    }
+                    div.TWITTER{
+                        padding: 6px 23px;
+                        font-size: 14px;
+                    } 
+                    div.Pre_mint{
+                        padding: 8px 20px;
+                        font-size: 14px;           
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 683px){
+    div.Gallery{
+        div.header_Gallery{
+            div.content_header_Gallery{
+                div.mechanized_abstractions{
+                    margin: 40px 83px 0px 0px;
+                    font-size: 16px;
+                }
+                div.menu{
+                    div.DISCORD{
+                        padding: 6px 0px;
+                        font-size: 12px;
+                    }
+                    div.TWITTER{
+                        padding: 6px 13px;
+                        font-size: 12px;
+                    } 
+                    div.Pre_mint{
+                        padding: 8px 10px;
+                        font-size: 12px;           
+                    }
+                }
+            }
+        }
+        div.content_Gallery{
+            padding: 40px 0px;
+            h2{
+                margin: 5px 0px 30px;
+            }
+            div.img_Gallery_014{
+                div{
+                        width: 474px;
+                }
+            }
+            div.img_Gallery_015{
+                margin-top: 30px;
+                div{
+                        width: 474px;
+                        height: 192px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px){
+    div.Gallery{
+        div.header_Gallery{
+            div.content_header_Gallery{
+                margin-left: 5px;
+                div.mechanized_abstractions{
+                    margin: 40px 20px 0px 0px;
+                    font-size: 12px;
+                }
+                div.menu{
+                    div.DISCORD{
+                        display: none;
+                    }
+                    div.TWITTER{
+                        display: none;
+                    } 
+                    div.Pre_mint{
+                        padding: 4px 10px;
+                        font-size: 10px;
+                        height: 30px;           
+                    }
+                    div.LogoDiscord{
+                        display:flex;
+                        flex-direction: column;
+                        div.hoverDISCORD{
+                            display: none;
+                            font-size: 10px;
+                            margin: -40px 0px 0px -8px;
+                        }
+                        &:hover{
+                            div.hoverDISCORD{
+                                display: inline;
+                            }
+                        }
+                    }
+                    div.LogoTwitter{
+                        display:flex;
+                        flex-direction: column;
+                        div.hoverTWITTER{
+                            display: none;
+                            font-size: 10px;
+                            margin: -40px 0px 0px -8px;
+                        }
+                        &:hover{
+                            div.hoverTWITTER{
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div.content_Gallery{
+            padding: 30px 0px;
+            h2{
+                margin: 5px 0px 30px;
+            }
+            div.img_Gallery_014{
+                div{
+                    width: 300px;
+                    height: 100px;
+                }
+            }
+            div.img_Gallery_015{
+                margin-top: 30px;
+                div{
+                    width: 300px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,127 @@
+div.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    div.content_header{
+        display: flex;
+        flex-direction: row;
+        margin-left: -10px;
+        div.mechanized_abstractions{
+            margin: 56px 823px 0px 0px;
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: lowercase;
+            color: #161412;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        div.menu{
+            display: flex;
+            flex-direction: row;
+            margin-top: 59px;
+            div.DISCORD{
+                padding: 6px 0px;
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                letter-spacing: 0.875px;
+                text-transform: uppercase;
+                color: #161412;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+            div.TWITTER{
+                padding: 6px 0px 6px 43px;
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                letter-spacing: 0.875px;
+                text-transform: uppercase;
+                color: #161412;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }         
+            }
+        }
+    }
+}
+
+@media (max-width: 1257px){
+    div.header{
+        div.content_header{
+            div.mechanized_abstractions{
+                margin: 56px 523px 0px 0px;
+            }
+        }
+    }
+}
+@media (max-width: 938px){
+    div.header{
+        div.content_header{
+            div.mechanized_abstractions{
+                margin: 56px 273px 0px 0px;
+            }
+        }
+    }
+}
+@media (max-width: 683px){
+    div.header{
+        div.content_header{
+            div.mechanized_abstractions{
+                margin: 56px 173px 0px 0px;
+                font-size: 16px;
+            }
+            div.menu{
+                div.DISCORD{
+                    padding: 6px 0px;
+                    font-size: 12px;
+                }
+                div.TWITTER{
+                    padding: 6px 0px 6px 43px;
+                    font-size: 12px;        
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px){
+    div.header{
+        div.content_header{
+            div.mechanized_abstractions{
+                margin: 28px 80px 0px 0px;
+                font-size: 12px;
+            }
+            div.menu{
+                margin-top: 29px;
+                div.DISCORD{
+                    padding: 6px 0px;
+                    font-size: 10px;
+                }
+                div.TWITTER{
+                    padding: 6px 0px 6px 13px;
+                    font-size: 10px;        
+                }
+            }
+        }
+    }
+}
